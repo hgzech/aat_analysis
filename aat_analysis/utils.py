@@ -10,7 +10,7 @@ import pandas as pd
 import os
 
 def merge_data(folder, drop=[], limit = None):
-    all_files = glob.glob(folder + "*.pkl")
+    all_files = glob.glob(os.path.join(folder, "*.pkl"))
     li = []
     for filename in all_files[:limit]:
         df = pd.read_pickle(filename)

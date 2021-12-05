@@ -1,9 +1,9 @@
 package:
   name: aat_analysis
-  version: 0.0.2
+  version: 0.0.3
 source:
-  sha256: 611821cdf8228342afbf29cbd70cb33a26cbdeb9680dbfa32d5c36406de014b2
-  url: https://files.pythonhosted.org/packages/a7/40/35f9282e3915c56868d8323255f502db00a5a941f9e022ee5284fe5c8d3c/aat_analysis-0.0.2.tar.gz
+  sha256: b0d7ec2f18ac077f6b59bc705f4b3467315a03127e3d936cf7f6edf2344c921a
+  url: https://files.pythonhosted.org/packages/01/1b/2f3d53c30e9b274aba200ba29429b9a8550b6f90bdccf7f7e680f3b1911a/aat_analysis-0.0.3.tar.gz
 about:
   dev_url: https://hgzech.github.io
   doc_url: https://hgzech.github.io
