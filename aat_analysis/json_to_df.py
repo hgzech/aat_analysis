@@ -147,8 +147,8 @@ def relabel_variables(data, tasks):
 
 # Cell
 def json_to_df(input_dir,external_dir,interim_dir,condition_dict, limit= None, threshold = 1):
-    stimulus_sets = loadJson(os.path.join(external_folder, "stimulus_sets.json"))
-    tasks = loadJson(os.path.join(external_folder, "tasks.json"))
+    stimulus_sets = loadJson(os.path.join(external_dir, "stimulus_sets.json"))
+    tasks = loadJson(os.path.join(external_dir, "tasks.json"))
     inverted_stimulus_sets = dict( (v,k) for k in stimulus_sets for v in stimulus_sets[k] )
     errors = []
     for file in tqdm(list(os.scandir(input_dir))[:limit]):

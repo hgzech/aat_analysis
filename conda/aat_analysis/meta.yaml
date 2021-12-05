@@ -1,0 +1,42 @@
+package:
+  name: aat_analysis
+  version: 0.0.1
+source:
+  sha256: 05f20446446f71a445c1f94fe8f8cb0836919bf6621d4727331211f055d2d748
+  url: https://files.pythonhosted.org/packages/35/d3/e2136af30ed90839275174126d79e6a20042cbb3b1d8d560cfac51ad93eb/aat_analysis-0.0.1.tar.gz
+about:
+  dev_url: https://hgzech.github.io
+  doc_url: https://hgzech.github.io
+  home: https://hgzech.github.io
+  license: Apache Software
+  license_family: APACHE
+  summary: This project analyzes mobile AAT data.
+build:
+  noarch: python
+  number: '0'
+  script: '{{ PYTHON }} -m pip install . -vv'
+extra:
+  recipe-maintainers:
+  - hgzech
+requirements:
+  host:
+  - pip
+  - python
+  - packaging
+  - scipy
+  - pandas
+  - tqdm
+  - peakutils
+  - matplotlib
+  run:
+  - pip
+  - python
+  - packaging
+  - scipy
+  - pandas
+  - tqdm
+  - peakutils
+  - matplotlib
+test:
+  imports:
+  - aat_analysis
