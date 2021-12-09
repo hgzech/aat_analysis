@@ -152,6 +152,7 @@ def json_to_df(input_dir,external_dir,interim_dir,condition_dict, limit= None, t
     inverted_stimulus_sets = dict( (v,k) for k in stimulus_sets for v in stimulus_sets[k] )
     errors = []
     for file in tqdm(list(os.scandir(input_dir))[:limit]):
+        try:
             participant = file.name.split('.')[0]
             if file.name.endswith('.json'):
                 participantJson = loadJson(file.path)
@@ -164,14 +165,7 @@ def json_to_df(input_dir,external_dir,interim_dir,condition_dict, limit= None, t
                     #df = relabel_variables(df, tasks)
 
                     df.reset_index().to_pickle(os.path.join(interim_dir, "%s.pkl"%participant))
-
-
-    #assert len(dfs)>0, "There is no data in input_dir of json_to_df. You might have to specify a different input dir in make_dataset.py."
-    #complete_data = pd.concat(dfs, sort=True).reset_index()
-    #complete_data['stimulus'] = complete_data.stimulus.str.split('.').apply(lambda x: x[0] if isinstance(x, list) else np.nan)
-    #complete_rating = pd.concat(ratingDfs, sort=True)
-    #complete_rating = complete_rating.reset_index().rename(columns={'index':'stimulus'})#.set_index(['participant','rating'])
-    #complete_data = complete_data.merge(complete_rating, on = ['participant','stimulus'], how = 'left')
-    #if len(errors):
-    #    print(errors)
-    #return complete_data
+        except:
+            errors.append(participant)
+    if len(errors):
+        print(errors)
