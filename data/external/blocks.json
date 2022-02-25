@@ -1,0 +1,87 @@
+{
+	"practice_pull_food_1" : {
+		"instructions": "Iniziamo! <b>Tira le immagini di cibo</b> verso di te e <b>respingi gli oggetti.</b> Rispondi il più velocemente possibile! ",
+		"pull": {"stimuli": [{"from":"practice_food", "pick":4}]},
+		"push": {"stimuli": [{"from":"practice_objects", "pick":4}]},
+		"give_feedback" : true
+	},
+
+	"practice_pull_food_2" : {
+		"instructions": "Ora la seconda parte. Questa volta <b>tira le immagini di cibo</b> verso di te e <b>respingi gli oggetti.</b> Rispondi il più velocemente possibile! ",
+		"pull": {"stimuli": [{"from":"practice_food", "pick":4}]},
+		"push": {"stimuli": [{"from":"practice_objects", "pick":4}]},
+		"non_repeat" : ["practice_push_food_1"],
+		"give_feedback" : true
+	},
+
+	"pull_food_1" : {
+		"instructions": "In questa sessione <b>tira le immagini di cibo</b> verso di te e <b>respingi gli oggetti.</b> Rispondi il più velocemente possibile! ",
+		"pull": {"stimuli": [{"from":"high_calories", "pick":10},{"from":"low_calories", "pick":10}]},
+		"push": {"stimuli": [{"from":"objects", "pick":10}]},
+		"give_feedback" : false
+	},
+
+	"pull_food_2" : {
+		"instructions": "Ora puoi prenderti una pausa. Ricorda: devi <b>tirare le immagini di cibo</b> verso di te <b>respingere gli oggetti.</b> Rispondi il più velocemente possibile! ",
+		"pull": {"stimuli": [{"from":"high_calories", "pick":10},{"from":"low_calories", "pick":10}]},
+		"push": {"stimuli": [{"from":"objects", "pick":10}]},
+		"give_feedback" : false
+	},
+
+	"practice_push_food_1" : {
+		"instructions": "Iniziamo! <b>Tira gli oggetti</b> verso di te e <b>respingi le immagini di cibo.</b> Rispondi il più velocemente possibile! ",
+		"pull": {"stimuli": [{"from":"practice_objects", "pick":4}]},
+		"push": {"stimuli": [{"from":"practice_food", "pick":4}]},
+		"give_feedback" : true
+	},
+
+	"practice_push_food_2" : {
+		"instructions": "Ora la seconda parte. Questa volta <b>tira gli oggetti</b> verso di te e <b>respingi le immagini di cibo.</b> Rispondi il più velocemente possibile! ",
+		"pull": {"stimuli": [{"from":"practice_objects", "pick":4}]},
+		"push": {"stimuli": [{"from":"practice_food", "pick":4}]},
+		"non_repeat" : ["practice_pull_food_1"],
+		"give_feedback" : true
+	},
+
+	"push_food_1" : {
+		"instructions": "In questa sessione <b>tira gli oggetti</b> verso di te e <b>respingi le immagini di cibo.</b> Rispondi il più velocemente possibile! ",
+		"push": {"stimuli": [{"from":"high_calories", "pick":10},{"from":"low_calories", "pick":10}]},
+		"pull": {"stimuli": [{"from":"objects", "pick":10}]},
+		"give_feedback" : false
+	},
+
+	"push_food_2" : {
+		"instructions": "Ora puoi prenderti una pausa. Ricorda: devi <b>tirare gli oggetti</b> verso di te e <b>respingere le immagini di cibo.</b> Rispondi il più velocemente possibile! ",
+		"push": {"stimuli": [{"from":"high_calories", "pick":10},{"from":"low_calories", "pick":10}]},
+		"pull": {"stimuli": [{"from":"objects", "pick":10}]},
+		"give_feedback" : false
+	},
+	
+	"pull_bodies_1" : {
+		"instructions": "In questa sessione <b>tira le immagini di corpi</b> verso di te e <b>respingi gli oggetti.</b> Rispondi il più velocemente possibile! ",
+		"pull": {"stimuli": [{"from":"AN", "pick":6},{"from":"thin", "pick":6},{"from":"fat", "pick":6}]},
+		"push": {"stimuli": [{"from":"objects", "pick":12}]},
+		"give_feedback" : false
+	},
+
+	"pull_bodies_2" : {
+		"instructions": "Ora puoi prenderti una pausa. Ricorda: devi <b>tirare le immagini di corpi</b> verso di te e <b>respingere gli oggetti.</b> Rispondi il più velocemente possibile! ",
+		"pull": {"stimuli": [{"from":"AN", "pick":6},{"from":"thin", "pick":6},{"from":"fat", "pick":6}]},
+		"push": {"stimuli": [{"from":"objects", "pick":12}]},
+		"give_feedback" : false
+	},
+
+	"push_bodies_1" : {
+		"instructions": "In questa sessione <b>tira gli oggetti</b> verso di te e <b>respingi le immagini di corpi.</b> Rispondi il più velocemente possibile! ",
+		"push": {"stimuli": [{"from":"AN", "pick":6},{"from":"thin", "pick":6},{"from":"fat", "pick":6}]},
+		"pull": {"stimuli": [{"from":"objects", "pick":12}]},
+		"give_feedback" : false
+	},
+
+	"push_bodies_2" : {
+		"instructions": "Ora puoi prenderti una pausa. Ricorda: devi <b>tirare gli oggetti</b> verso di te e <b>respingere le immagini di corpi.</b> Rispondi il più velocemente possibile! ",
+		"push": {"stimuli": [{"from":"AN", "pick":6},{"from":"thin", "pick":6},{"from":"fat", "pick":6}]},
+		"pull": {"stimuli": [{"from":"objects", "pick":12}]},
+		"give_feedback" : false
+	}
+}

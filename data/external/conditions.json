@@ -1,0 +1,27 @@
+{
+  "condition_1": {
+    "sessions":
+    [
+	  "introduction_session_1",
+      "pull_food",
+      "pull_bodies",
+	  "valutazione_cibo",
+	  "valutazione_corpi",
+	  "scale",
+      "final_session"
+    ]
+  },
+
+  "condition_2": {
+    "sessions":
+    [
+	  "introduction_session_2",
+      "push_food",
+      "push_bodies",
+	  "valutazione_cibo",
+	  "valutazione_corpi",
+	  "scale",		
+      "final_session"
+    ]
+  }
+}

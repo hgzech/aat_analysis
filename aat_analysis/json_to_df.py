@@ -107,8 +107,10 @@ def makeParticipantTable(participantJson, df, inverted_stimulus_sets):
                 if task.startswith("PR"):
                     has_pr = 1
             has_pr_list.append([key,has_pr])
+
     has_pr_list = sorted(has_pr_list, key=itemgetter(1))
     keys = [item[0] for item in has_pr_list]
+
 
     for key in keys:#participantJson.keys():
         if key not in participantKeys:
@@ -156,6 +158,8 @@ def json_to_df(input_dir,external_dir,interim_dir,condition_dict, limit= None, t
             participant = file.name.split('.')[0]
             if file.name.endswith('.json'):
                 participantJson = loadJson(file.path)
+                if ('participantId' not in participantJson.keys()):
+                    participantJson['participantId'] = participant
                 if ('condition' in participantJson.keys()) & ('participantId' in participantJson.keys()):
                     conditionDf = condition_dict[participantJson['condition']]
                     conditionDf = conditionDf.copy(deep=True)
@@ -163,7 +167,6 @@ def json_to_df(input_dir,external_dir,interim_dir,condition_dict, limit= None, t
                     df = df.reset_index().set_index(['participant','session','block','trial'])
                     df = add_responses(df, threshold = threshold)
                     #df = relabel_variables(df, tasks)
-
                     df.reset_index().to_pickle(os.path.join(interim_dir, "%s.pkl"%participant))
         except:
             errors.append(participant)

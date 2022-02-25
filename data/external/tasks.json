@@ -1,0 +1,3584 @@
+{
+  "SO" : {
+    "id" : "SO",
+    "type" : "questionnaire",
+    "repeat" : true,
+    "default_type" : {
+      "format" : "instruction"
+    },
+    "questions" : [
+      {
+        "id" : "SO_1",
+        "text" : "<h3>Informazioni sullo studio</h3><p>Gentile partecipante,</p><p>Le proponiamo di aderire ad uno studio il cui scopo è quello di valutare come le persone reagiscano nei confronti di immagini di cibo ad alto e a basso contenuto calorico, a corpi e ad oggetti. </p><p><b>Descrizione dello studio</b></p><p> Il compito avrà una durata di circa 45 minuti e dovrà essere svolto su questa applicazione. La informiamo che, nel rispetto della privacy, l'applicazione non salverà alcuna informazione personale (per esempio l'indirizzo IP). I dati saranno codificati e anonimizzati. La raccolta sarà finalizzata al solo scopo di ricerca e i risultati verranno pubblicati in forma anonima. Per qualsiasi domanda può contattare gli sperimentatori alla seguente email: <a href=\"mailto:aatmobile.neuroscienze@unipd.it?subject=richiesta informazioni studio AAT-mobile \"PARTICIPANT_ID\"\">aatmobile.neuroscienze@unipd.it</a>. Lo studio inizierà con la compilazione online di un breve questionario demografico. Successivamente, svolgerà una breve (5 minuti) sessione introduttiva di prova. A seguire, inizierà la parte sperimentale vera e propria (10 minuti). Durante l'esperimento vedrà comparire sullo schermo del telefono alcune immagini che dovrà alternativamente tirare verso di sè o respingere seguendo le istruzioni che le verranno fornite. All'inizio ed alla fine dell'esperimento dovrà inoltre rispondere ad alcune domande che riguardano i comportamenti alimentari recenti. Al termine dell'esperimento le verrà chiesto di compilare 4 brevi questionari che includono domande relative a umore, ansia e stress, comportamento alimentare, impulsività. Le verrà inoltre chiesto di assegnare dei punteggi che indicano il piacere ed il desiderio che associa alle immagini alle quali verrà esposto nel corso dell’esperimento.</p><p><b>Trattamento dei dati</b></p><p>Tutte le informazioni raccolte in questa ricerca saranno trattate nel rispetto delle vigenti leggi D.Lgs.196/2003 sulla privacy e UE GDPR 679/2016 sulla protezione dei dati personali. I suoi dati saranno analizzati in modo anonimo e con tutti i criteri che garantiscono la massima riservatezza, utilizzati unicamente ai fini della ricerca medesima. Ogni informazione che otterremo da lei, inclusa la sua identità, sarà condivisa esclusivamente dal responsabile della ricerca e dai ricercatori coinvolti in questo studio che sono vincolati dal segreto professionale e tenuti al rispetto della normativa sulla tutela della privacy (D. Lgs. 196/2003, “Codice in materia di pro-tezione dei dati personali”). La sua partecipazione allo studio potrà essere interrotta in qualunque momento, senza fornire spiegazioni e senza alcuna penalizzazione. I dati, raccolti ed elaborati in forma aggregata e anonima, potranno essere inseriti in pubblicazioni e presentati a congressi o seminari scientifici. Il trattamento dei suoi dati sarà avviato solo con la sottoscrizione di tale consenso. </p>"
+      }
+    ]
+  },
+  "IC" : {
+    "id" : "IC",
+    "type" : "questionnaire",
+    "questions" : [
+      {
+        "id" : "IC_0",
+        "text" : "<h3>Consenso informato</h3><p><b>Dichiaro</b>: </p><p>- Di essere maggiorenne</p><p>- Di aderire volontariamente alla realizzazione della ricerca in qualità di partecipante. </p><p>- Di essere a conoscenza degli obiettivi e delle finalità di tale progetto di ricerca. </p><p>- Di essere a conoscenza del fatto che i dati saranno raccolti in forma confidenziale e che solo i ricercatori coinvolti nello studio avranno accesso ai miei dati personali. </p><p>- Di essere a conoscenza del fatto che i miei dati saranno utilizzati esclusivamente per scopi scientifici e statistici e con il mantenimento delle regole relative alla riservatezza. </p><p>- Di essere consapevole della possibilità di interrompere la mia partecipazione allo studio in qualunque momento, senza fornire spiegazioni, senza alcuna penalizzazione. </p><p>- Di essere a conoscenza del fatto che la protezione dei miei dati è designata con Decreto del Direttore Generale 4451 del 19 dicembre 2017, in cui è stato nominato un Responsabile della Protezione dati, privacy@unipd.it.</p><p>- Per eventuali chiarimenti è possibile contattare gli sperimentatori alla seguente email: <a href=\"mailto:aatmobile.neuroscienze@unipd.it?subject=richiesta informazioni studio AAT-mobile\"PARTICIPANT_ID\"\">aatmobile.neuroscienze@unipd.it</a>. </p><p>Grazie per il suo prezioso contributo!</p><p>Proseguendo nella compilazione del questionario esprime consenso a partecipare alla ricerca. </p>",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "IC_1",
+        "text" : "",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Sono d'accordo."
+          ]
+        }
+      }
+    ]
+  },
+  
+    "ICF_cibo" : {
+    "id" : "ICF",
+    "type" : "questionnaire",
+    "level" : "session",
+    "questions" : [
+      {
+        "id" : "ICF_1",
+        "label" : "last_eaten",
+        "text" : "<h3>Dai una valutazione alle foto qui sotto:<br></h3><img style=\"width:100%\" src=\"hc1.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_11",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_12",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_13",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	        {
+        "id" : "ICF_2",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"lc2.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_21",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_22",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_23",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	  {
+        "id" : "ICF_3",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"hc3.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_31",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_32",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_33",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+	    }
+	  },
+	  {
+        "id" : "ICF_4",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"hc4.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_41",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_42",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_43",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+	  },
+	   {
+        "id" : "ICF_5",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"lc5.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_51",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_52",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_53",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  },
+	   {
+        "id" : "ICF_6",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"lc6.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_61",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_62",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_63",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  },
+	   {
+        "id" : "ICF_7",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"hc7.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_71",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_72",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_73",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  },
+	   {
+        "id" : "ICF_8",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"hc8.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_81",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_82",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_83",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  },
+	   {
+        "id" : "ICF_9",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"lc9.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_91",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_92",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_93",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  },
+	   {
+        "id" : "ICF_10",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"hc10.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_101",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_102",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_103",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  },
+	   {
+        "id" : "ICF_11",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"hc11.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_111",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_112",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_113",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  },
+	   {
+        "id" : "ICF_12",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"lc12.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_121",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_122",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_123",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  },
+	   {
+        "id" : "ICF_13",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"hc13.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_131",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_132",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_133",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  },
+	   {
+        "id" : "ICF_14",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"hc14.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_141",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_142",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_143",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  },
+	   {
+        "id" : "ICF_15",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"hc15.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_151",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_152",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_153",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  },
+	   {
+        "id" : "ICF_16",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"lc1.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_161",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_162",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_163",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  },
+	  	   {
+        "id" : "ICF_17",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"hc2.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_171",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_172",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_173",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  },
+	  	   {
+        "id" : "ICF_18",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"lc3.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_181",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_182",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_183",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  },
+	  	   {
+        "id" : "ICF_19",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"lc4.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_191",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_192",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_193",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  },
+	  	   {
+        "id" : "ICF_20",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"hc5.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_201",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_202",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_203",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  },
+	  	   {
+        "id" : "ICF_21",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"hc6.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_211",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_212",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_213",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  },
+	  	   {
+        "id" : "ICF_22",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"lc7.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_221",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_222",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_223",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  },
+	  	   {
+        "id" : "ICF_23",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"lc8.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_231",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_232",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_233",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  },
+	  	   {
+        "id" : "ICF_24",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"hc9.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_241",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_242",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_243",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  },
+	  	   {
+        "id" : "ICF_25",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"lc10.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_251",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_252",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_253",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  },
+	  	   {
+        "id" : "ICF_26",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"lc11.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_261",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_262",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_263",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  },
+	  	   {
+        "id" : "ICF_27",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"hc12.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_271",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_272",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_273",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  },
+	  	   {
+        "id" : "ICF_28",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"lc13.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_281",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_282",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_283",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  },
+	  	   {
+        "id" : "ICF_29",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"lc14.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_291",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_292",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_293",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  },
+	  	   {
+        "id" : "ICF_30",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"lc15.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_301",
+        "label" : "hunger",
+        "text" : "Quanto ti piace il sapore di questo cibo?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_302",
+        "label" : "cibo_preferito",
+        "text" : "Quanto desidereresti mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+      {
+        "id" : "ICF_303",
+        "label" : "prossimo_pasto",
+        "text" : "Quanta ansia ti provoca l’idea di mangiare questo cibo in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+      }
+	  }
+    ]
+  },
+	    "ICF_corpi" : {
+    "id" : "ICF",
+    "type" : "questionnaire",
+    "level" : "session",
+    "questions" : [
+      {
+        "id" : "ICF_1",
+        "label" : "last_eaten",
+        "text" : "<h3>Dai una valutazione alle foto qui sotto:<br></h3><img style=\"width:100%\" src=\"an1.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_11",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	        {
+        "id" : "ICF_2",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"mg2.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_21",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	  {
+        "id" : "ICF_3",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"gr3.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_31",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	  {
+        "id" : "ICF_4",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"an4.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_41",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente??",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	   {
+        "id" : "ICF_5",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"an5.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_51",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	   {
+        "id" : "ICF_6",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"gr6.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_61",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	   {
+        "id" : "ICF_7",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"an7.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_71",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	   {
+        "id" : "ICF_8",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"an8.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_81",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	   {
+        "id" : "ICF_9",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"mg9.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_91",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	   {
+        "id" : "ICF_10",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"an10.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_101",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	   {
+        "id" : "ICF_11",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"gr11.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_111",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	   {
+        "id" : "ICF_12",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"an12.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_121",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	   {
+        "id" : "ICF_13",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"mg1.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_131",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	   {
+        "id" : "ICF_14",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"an2.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_141",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	   {
+        "id" : "ICF_15",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"mg3.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_151",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	   {
+        "id" : "ICF_16",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"gr4.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_161",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	  	   {
+        "id" : "ICF_17",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"mg5.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_171",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	  	   {
+        "id" : "ICF_18",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"mg6.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_181",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	  	   {
+        "id" : "ICF_19",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"gr7.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_191",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	  	   {
+        "id" : "ICF_20",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"mg8.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_201",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	  	   {
+        "id" : "ICF_21",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"an9.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_211",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	  	   {
+        "id" : "ICF_22",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"mg10.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_221",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	  	   {
+        "id" : "ICF_23",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"mg11.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_231",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	  	   {
+        "id" : "ICF_24",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"mg12.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_241",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	  	   {
+        "id" : "ICF_25",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"gr1.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_251",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	  	   {
+        "id" : "ICF_26",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"gr2.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_261",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	  	   {
+        "id" : "ICF_27",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"an3.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_271",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	  	   {
+        "id" : "ICF_28",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"mg4.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_281",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	  	   {
+        "id" : "ICF_29",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"gr5.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_291",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	  	   {
+        "id" : "ICF_30",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"an6.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_301",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	  	  	   {
+        "id" : "ICF_31",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"mg7.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_311",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	  	  	   {
+        "id" : "ICF_32",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"gr8.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_321",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	  	  	   {
+        "id" : "ICF_33",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"gr9.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_331",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	  	  	   {
+        "id" : "ICF_34",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"gr10.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_341",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	  	  	   {
+        "id" : "ICF_35",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"an11.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_351",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      },
+	  	  	   {
+        "id" : "ICF_36",
+        "label" : "last_eaten",
+        "text" : "<img style=\"width:100%\" src=\"gr12.webp\">",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "ICF_361",
+        "label" : "hunger",
+        "text" : "Quanto trovi che questa immagine sia attraente?",
+        "type" : {
+          "format" : "likert",
+          "min" : "0",
+          "max" : "5"
+        }
+      }
+    ]
+  },
+  "AAT_Instructions" : {
+    "id" : "AAT_Instructions",
+    "type" : "questionnaire",
+    "repeat" : false,
+    "questions" : [
+      {
+        "id" : "AAT_Instructions_1",
+        "text" : "<h3>Istruzioni</h3><p>Prima di cominciare ti diamo alcune istruzioni sull'esecuzione del compito</p> <p>Durante l'esperimento vedrai comparire sullo schermo del telefono alcune immagini. Ti verrà chiesto di tirare alcune di queste immagini verso di te (come se dovessi prenderle) e di respingerne altre (come se dovessi allontanarle).</p><p>Qui sotto puoi osservare un esempio del movimento da compiere per tirare le immagini verso di te. <img src=\"pull_example.gif\"></p><p></p><p> Qui invece puoi osservare un esempio del movimento da compiere per respingere le immagini: <img src=\"push_example.gif\"></p><p> Ti chiediamo di compiere movimenti <b>rapidi</b> e <b>decisi</b>, utilizzando <b>tutto il braccio</b>, e di <b>NON</b> ruotare o inclinare il telefono.</p><p>Tra un movimento e il successivo dovrai riportare le braccia nella posizione iniziale.</p><p>Ora potrai svolgere una sessione di prova per meglio comprendere il meccanismo dell'esperimento. In questa sessione di prova le risposte corrette saranno segnalate da una 'V', mentre le risposte sbagliate saranno segnalate da una 'X'. </p> <b>ATTENZIONE: gli stimoli che vedrai nel corso dell'esperimento consistono in immagini di cibi ad alto e a basso contenuto calorico, corpi di persone malnutrite, corpi di persone normopeso, corpi di persone sovrappeso.</b> </p><p> <b>Se ti dovessi sentire a disagio, ricorda che potrai interrompere l'esperimento in qualsiasi momento.</b> <p>",
+        "type" : {
+          "format" : "instruction"
+        }
+      }
+    ]
+  },
+  "IF_1" : {
+    "id" : "IF_1",
+    "type" : "questionnaire",
+    "repeat" : false,
+    "questions" : [
+      {
+        "id" : "IF_1_1",
+        "text" : "<h3>Hai terminato la sessione di prova!</h3><p>Ora potrai tornare alla pagina inziale e cominciare l'esperimento vero e proprio. L'esperimento è diviso in due parti, ognuna delle quali avrà una durata di circa 10 minuti.</p>",
+        "type" : {
+          "format" : "instruction"
+        }
+      }
+    ]
+  },
+  "AAT_Reminder" : {
+    "id" : "AAT_Reminder",
+    "type" : "questionnaire",
+    "questions" : [
+      {
+        "id" : "AAT_Reminder_1",
+        "text" : "<h3>Istruzioni</h3><p>Questa sessione durerà circa 10 minuti, durante i quali è importante che l'esperimento non venga interrotto. Ti ricordiamo le istruzioni: </p><p>durante il compito, vedrai comparire sullo schermo del telefono alcune immagini. Ti verrà chiesto di tirare alcune di queste immagini verso di te (come per prenderle) e di respingerne altre (come per allontanarle).</p><p>Qui sotto puoi osservare un esempio del movimento da compiere per tirare l'immagine verso di te. <img src=\"pull_example.gif\"></p><p></p><p> Qui sotto invece puoi osservare un esempio del movimento da compiere per respingere l’immagine: <img src=\"push_example.gif\"></p><p> Ti chiediamo di compiere movimenti <b>rapidi</b> e <b>decisi</b>, utilizzando <b>tutto il braccio</b>, e di <b>NON</b> ruotare o inclinare il telefono. Tra un movimento e il successivo dovrai riportare le braccia nella posizione iniziale. </p> <p>In questa parte dell'esperimento non verrà segnalata la correttezza delle risposte. Ti ricordiamo di completare il compito senza interruzioni.<p></p><p>Grazie e buona fortuna!</p>",
+        "type" : {
+          "format" : "instruction"
+        }
+      }
+    ]
+  },
+  "HU" : {
+    "id" : "HU",
+    "type" : "questionnaire",
+    "level" : "session",
+    "questions" : [
+      {
+        "id" : "HU_1",
+        "label" : "last_eaten",
+        "text" : "Quanto tempo è passato dall'ultima volta che hai mangiato (in ore con intervalli di 15 minuti)?",
+        "type" : {
+          "format" : "text_input"
+        }
+      },
+      {
+        "id" : "HU_2",
+        "label" : "hunger",
+        "text" : "Quanta fame hai?",
+        "type" : {
+          "format" : "likert",
+          "min" : "Per niente",
+          "max" : "Tantissima"
+        }
+      },
+      {
+        "id" : "HU_3",
+        "label" : "cibo_preferito",
+        "text" : "Pensa al tuo cibo preferito, quanto ne riusciresti a mangiare in questo momento?",
+        "type" : {
+          "format" : "likert",
+          "min" : "Neanche un po'",
+          "max" : "Il più possibile"
+        }
+      },
+      {
+        "id" : "HU_4",
+        "label" : "prossimo_pasto",
+        "text" : "Tra quante ore mangerai la prossima volta (intervalli di 15 minuti)?",
+        "type" : {
+          "format" : "text_input"
+        }
+      }
+    ]
+  },
+  "EX" : {
+    "id" : "EX",
+    "type" : "questionnaire",
+    "level" : "session",
+    "default_type" : {
+      "format" : "text_input"
+    },
+    "questions" : [
+      {
+        "id" : "EX1",
+        "label" : "meal_eaten",
+        "text" : "Cosa hai mangiato nel corso del tuo ultimo pasto?"
+      },
+      {
+        "id" : "EX2",
+        "text" : "Quando soddisfacente è stato il tuo ultimo pasto?",
+        "label" : "meal_satisfaction",
+        "type" : {
+          "format" : "likert",
+          "min" : "Per niente soddisfacente",
+          "max" : "Molto soddisfacente"
+        }
+      },
+      {
+        "id" : "EX4",
+        "text" : "Quanto assonnato/a sei in questo momento?",
+        "label" : "sleepy",
+        "type" : {
+          "format" : "likert",
+          "min" : "Per niente assonnato/a",
+          "max" : "Molto assonnato/a"
+        }
+      }
+    ]
+  },
+  "SC" : {
+    "id" : "SC_before_lunch",
+    "type" : "questionnaire",
+    "questions" : [
+      {
+        "id" : "SC_bl_1",
+        "text" : "<h3>Grazie!</h3> <p>Hai completato questa sessione!</p>",
+        "type" : {
+          "format" : "instruction"
+        }
+      }
+    ]
+  },
+  "DG" : {
+    "id" : "DG",
+    "type" : "questionnaire",
+    "level" : "participant",
+    "repeat" : false,
+    "default_type" : {
+      "format" : "text_input"
+    },
+    "questions" : [
+      {
+        "id" : "DG1",
+        "label" : "age",
+        "text" : "Età:"
+      },
+      {
+        "id" : "DG2",
+        "label" : "gender",
+        "text" : "Sesso",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "F",
+            "M",
+            "altro"
+          ]
+        }
+      },
+      {
+        "id" : "DG3",
+        "label" : "studio",
+        "text" : "Titolo di studio",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Diploma di scuola media",
+            "Diploma di maturità",
+            "Laurea triennale",
+            "Laurea magistrale"
+          ]
+        }
+      },
+      {
+        "id" : "DG4",
+        "label" : "professione",
+        "text" : "Professione:"
+      },
+      {
+        "id" : "DG5",
+        "label" : "PID_01",
+        "text" : "Inserisci qui le prime tre lettere del tuo cognome seguite dalle prime tre lettere del tuo nome e dalle ultime due cifre del tuo anno di nascita (es. Mario Rossi 1967: rosmar67)."
+      }
+    ]
+  },
+    "UPPS" : {
+    "id" : "UPPS",
+    "type" : "questionnaire",
+    "level" : "participant",
+    "repeat" : false,
+    "level" : "session",
+    "questions" : [
+      {
+        "id" : "UPPS_istruzioni",
+        "label" : "instruction",
+        "text" : "<h3><br>Troverai qui di seguito alcune affermazioni che descrivono il modo di comportarsi o di pensare. Per ogni affermazione, indica in che misura ti trovi d'accordo o no con l'affermazione. </h3>",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "UPPS1",
+        "label" : "UPPS1",
+        "text" : "Di solito rifletto attentamente prima di fare qualsiasi cosa",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Completamente d'accordo",
+            "Piuttosto d'accordo",
+            "Piuttosto in disaccordo",
+			"Completamente in disaccordo"
+          ]
+        }
+      },
+	    {
+        "id" : "UPPS2",
+        "label" : "UPPS2",
+        "text" : "Quando sono davvero eccitato, tendo a non pensare alle conseguenze delle mie azioni",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Completamente d'accordo",
+            "Piuttosto d'accordo",
+            "Piuttosto in disaccordo",
+			"Completamente in disaccordo"
+          ]
+        }
+      },
+		{
+        "id" : "UPPS3",
+        "label" : "UPPS3",
+        "text" : "A volte mi piace fare delle cose che sono un po' spaventose",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Completamente d'accordo",
+            "Piuttosto d'accordo",
+            "Piuttosto in disaccordo",
+			"Completamente in disaccordo"
+          ]
+        }
+      },
+	   {
+        "id" : "UPPS4",
+        "label" : "UPPS4",
+        "text" : "Quando sono nervoso, spesso agisco senza riflettere",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Completamente d'accordo",
+            "Piuttosto d'accordo",
+            "Piuttosto in disaccordo",
+			"Completamente in disaccordo"
+          ]
+        }
+      },
+	       {
+        "id" : "UPPS5",
+        "label" : "UPPS5",
+        "text" : "Generalmente mi piace fare le cose fino in fondo",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Completamente d'accordo",
+            "Piuttosto d'accordo",
+            "Piuttosto in disaccordo",
+			"Completamente in disaccordo"
+          ]
+        }
+      },
+	    {
+        "id" : "UPPS6",
+        "label" : "UPPS6",
+        "text" : "Il mio modo di pensare di solito è attento e meticoloso",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Completamente d'accordo",
+            "Piuttosto d'accordo",
+            "Piuttosto in disaccordo",
+			"Completamente in disaccordo"
+          ]
+        }
+      },
+		 {
+        "id" : "UPPS7",
+        "label" : "UPPS7",
+        "text" : "Quando la discussione si scalda, spesso dico cose di cui dopo mi pento.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Completamente d'accordo",
+            "Piuttosto d'accordo",
+            "Piuttosto in disaccordo",
+			"Completamente in disaccordo"
+          ]
+        }
+      },
+		 {
+        "id" : "UPPS8",
+        "label" : "UPPS8",
+        "text" : "Porto a termine quello che inizio.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Completamente d'accordo",
+            "Piuttosto d'accordo",
+            "Piuttosto in disaccordo",
+			"Completamente in disaccordo"
+          ]
+        }
+      },
+		{
+        "id" : "UPPS9",
+        "label" : "UPPS9",
+        "text" : "Provo abbastanza piacere a correre dei rischi.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Completamente d'accordo",
+            "Piuttosto d'accordo",
+            "Piuttosto in disaccordo",
+			"Completamente in disaccordo"
+          ]
+        }
+      },
+		{
+        "id" : "UPPS10",
+        "label" : "UPPS1'",
+        "text" : "Quando sono particolarmente felice, mi sento come se non riuscissi a trattenermi dal perdere il controllo.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Completamente d'accordo",
+            "Piuttosto d'accordo",
+            "Piuttosto in disaccordo",
+			"Completamente in disaccordo"
+          ]
+        }
+      },
+		{
+        "id" : "UPPS11",
+        "label" : "UPPS11",
+        "text" : "Una volta iniziato un progetto, lo porto a termine quasi sempre.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Completamente d'accordo",
+            "Piuttosto d'accordo",
+            "Piuttosto in disaccordo",
+			"Completamente in disaccordo"
+          ]
+        }
+      },
+	  {
+        "id" : "UPPS12",
+        "label" : "UPPS12",
+        "text" : "Spesso peggioro le cose perchè quando sono nervoso agisco senza riflettere",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Completamente d'accordo",
+            "Piuttosto d'accordo",
+            "Piuttosto in disaccordo",
+			"Completamente in disaccordo"
+          ]
+        }
+      },
+	  	{
+        "id" : "UPPS13",
+        "label" : "UPPS13",
+        "text" : "Di solito prendo decisioni dopo un ragionamento accurato.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Completamente d'accordo",
+            "Piuttosto d'accordo",
+            "Piuttosto in disaccordo",
+			"Completamente in disaccordo"
+          ]
+        }
+      },
+		 {
+        "id" : "UPPS14",
+        "label" : "UPPS14",
+        "text" : "Generalmente cerco esperienze ed emozioni nuove ed eccitanti.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Completamente d'accordo",
+            "Piuttosto d'accordo",
+            "Piuttosto in disaccordo",
+			"Completamente in disaccordo"
+          ]
+        }
+      },
+		 {
+        "id" : "UPPS15",
+        "label" : "UPPS15",
+        "text" : "Quando sono particolarmente eccitato, spesso agisco senza riflettere.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Completamente d'accordo",
+            "Piuttosto d'accordo",
+            "Piuttosto in disaccordo",
+			"Completamente in disaccordo"
+          ]
+        }
+      },
+		 {
+        "id" : "UPPS16",
+        "label" : "UPPS16",
+        "text" : "Sono una persona produttiva che porta sempre a termine il proprio lavoro.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Completamente d'accordo",
+            "Piuttosto d'accordo",
+            "Piuttosto in disaccordo",
+			"Completamente in disaccordo"
+          ]
+        }
+      },
+		 {
+        "id" : "UPPS17",
+        "label" : "UPPS17",
+        "text" : "Quando mi sento rifiutato, spesso dico cose di cui in seguito mi pento",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Completamente d'accordo",
+            "Piuttosto d'accordo",
+            "Piuttosto in disaccordo",
+			"Completamente in disaccordo"
+          ]
+        }
+      },
+		  {
+        "id" : "UPPS18",
+        "label" : "UPPS18",
+        "text" : "Mi piace provare esperienze e sensazioni nuove, anche quando sono un po' spaventose e anticonformiste.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Completamente d'accordo",
+            "Piuttosto d'accordo",
+            "Piuttosto in disaccordo",
+			"Completamente in disaccordo"
+          ]
+        }
+      },
+		  {
+        "id" : "UPPS19",
+        "label" : "UPPS19",
+        "text" : "Prima di prendere decisioni considero tutti i vantaggi e gli svantaggi.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Completamente d'accordo",
+            "Piuttosto d'accordo",
+            "Piuttosto in disaccordo",
+			"Completamente in disaccordo"
+          ]
+        }
+      },
+      {
+        "id" : "UPPS20",
+        "label" : "UPPS20",
+        "text" : "Quando sono molto felice, è come se per me fosse normale cedere alle proprie volgie o lasciarsi andare agli eccessi.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Completamente d'accordo",
+            "Piuttosto d'accordo",
+            "Piuttosto in disaccordo",
+			"Completamente in disaccordo"
+          ]
+        }
+      }
+    ]
+  },
+	    "EDE" : {
+    "id" : "EDE",
+    "type" : "questionnaire",
+    "level" : "participant",
+    "repeat" : false,
+    "level" : "session",
+    "questions" : [
+      {
+        "id" : "EDE_istruzioni",
+        "label" : "instruction",
+        "text" : "<h3><br>Le seguenti domande riguardano le ultime quattro settimane (28 giorni). E' pregato/a di leggere ogni domanda attentamente. </h3>",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "EDE1",
+        "label" : "EDE1",
+        "text" : "Quante volte negli ultimi 28 giorni ha cercato deliberatamente di limitare la quantità di cibo che mangiava per influenzare la forma del suo corpo o il suo peso (indipendentemente dal fatto di esserci riuscito/a)?",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1-5 giorni",
+            "6-12 giorni",
+			"13-15 giorni",
+			"16-22 giorni",
+			"23-27 giorni",
+			"Ogni giorno"  
+          ]
+        }
+      },
+	        {
+        "id" : "EDE2",
+        "label" : "EDE2",
+        "text" : "Quante volte negli ultimi 28 giorni ci sono stati dei lunghi periodi di tempo (8 ore o più durante le ore di veglia) in cui non ha mangiato allo scopo di ifnluenzare la forma del suo corpo o il suo peso?",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1-5 giorni",
+            "6-12 giorni",
+			"13-15 giorni",
+			"16-22 giorni",
+			"23-27 giorni",
+			"Ogni giorno"  
+          ]
+        }
+      },
+			 {
+        "id" : "EDE3",
+        "label" : "EDE3",
+        "text" : "Quante volte negli ultimi 28 giorni ha cercato  di escludere dalla sua dieta qualsiasi cibo che le piaceva allo scopo di influenzare la forma del suo corpo o il suo peso (indipendentemente dal fatto di esserci riuscito/a)?",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1-5 giorni",
+            "6-12 giorni",
+			"13-15 giorni",
+			"16-22 giorni",
+			"23-27 giorni",
+			"Ogni giorno"  
+          ]
+        }
+      },
+	      {
+        "id" : "EDE4",
+        "label" : "EDE4",
+        "text" : "Quante volte negli ultimi 28 giorni ha cercato di seguire regole precise che riguardano la sua alimentazione (per esempio un limite calorico) al fine di influenzare la forma del suo corpo o il suo peso (indipendentemente dal fatto di esserci riuscito/a)?",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1-5 giorni",
+            "6-12 giorni",
+			"13-15 giorni",
+			"16-22 giorni",
+			"23-27 giorni",
+			"Ogni giorno"  
+          ]
+        }
+      },
+		   {
+        "id" : "EDE5",
+        "label" : "EDE5",
+        "text" : "Quante volte negli ultimi 28 giorni ha desiderato che la sua pancia fosse vuota con lo scopo di influenzare la forma del suo corpo o il suo peso?",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1-5 giorni",
+            "6-12 giorni",
+			"13-15 giorni",
+			"16-22 giorni",
+			"23-27 giorni",
+			"Ogni giorno"  
+          ]
+        }
+      },
+	      {
+        "id" : "EDE6",
+        "label" : "EDE6",
+        "text" : "Quante volte negli ultimi 28 giorni ha desiderato di avere una pancia totalmente piatta?",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1-5 giorni",
+            "6-12 giorni",
+			"13-15 giorni",
+			"16-22 giorni",
+			"23-27 giorni",
+			"Ogni giorno"  
+          ]
+        }
+      },
+	      {
+        "id" : "EDE7",
+        "label" : "EDE7",
+        "text" : "Quante volte negli ultimi 28 giorni il pensiero sul cibo, sul mangiare o sulle calorie le ha reso molto difficile concentrarsi sulle cose che le interessano (per esempio, lavorare, seguire una conversazione o leggere)?",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1-5 giorni",
+            "6-12 giorni",
+			"13-15 giorni",
+			"16-22 giorni",
+			"23-27 giorni",
+			"Ogni giorno"  
+          ]
+        }
+      },
+	      {
+        "id" : "EDE8",
+        "label" : "EDE8",
+        "text" : "Quante volte negli ultimi 28 giorni il pensiero sulla forma del suo corpo o sul suo peso le ha reso molto difficile concentrarsi sulle cose che le interessano (per esempio lavorare, seguire una conversazione o leggere)?",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1-5 giorni",
+            "6-12 giorni",
+			"13-15 giorni",
+			"16-22 giorni",
+			"23-27 giorni",
+			"Ogni giorno"  
+          ]
+        }
+      },
+		  {
+        "id" : "EDE9",
+        "label" : "EDE9",
+        "text" : "Quante volte negli ultimi 28 giorni ha avuto paura di perdere il controllo sulla sua alimentazione?",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1-5 giorni",
+            "6-12 giorni",
+			"13-15 giorni",
+			"16-22 giorni",
+			"23-27 giorni",
+			"Ogni giorno"  
+          ]
+        }
+      },
+		      {
+        "id" : "EDE10",
+        "label" : "EDE10",
+        "text" : "Quante volte negli ultimi 28 giorni ha avuto paura di aumentare di peso o di ingrassare?",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1-5 giorni",
+            "6-12 giorni",
+			"13-15 giorni",
+			"16-22 giorni",
+			"23-27 giorni",
+			"Ogni giorno"  
+          ]
+        }
+      },
+	      {
+        "id" : "EDE11",
+        "label" : "EDE11",
+        "text" : "Quante volte negli ultimi 28 giorni si è sentito grasso/a?",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1-5 giorni",
+            "6-12 giorni",
+			"13-15 giorni",
+			"16-22 giorni",
+			"23-27 giorni",
+			"Ogni giorno"  
+          ]
+        }
+      },
+		      {
+        "id" : "EDE12",
+        "label" : "EDE12",
+        "text" : "Quante volte negli ultimi 28 giorni ha avuto un forte desiderio di perdere peso?",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1-5 giorni",
+            "6-12 giorni",
+			"13-15 giorni",
+			"16-22 giorni",
+			"23-27 giorni",
+			"Ogni giorno"  
+          ]
+        }
+      },
+	      {
+        "id" : "EDE13",
+        "label" : "EDE13",
+        "text" : "Negli ultimi 28 giorni, quante volte ha mangiato quello che altri considererebbero come una quantità di cibo insolitamente elevata (date le circostanze)?",
+        "type" : {
+          "format" : "text_input"
+        }
+      },
+		      {
+        "id" : "EDE14",
+        "label" : "EDE14",
+        "text" : "...In quante di queste volte ha avuto la sensazione di aver perso il controllo sulla sua alimentazione (nel momento in cui stava mangiando)?",
+        "type" : {
+          "format" : "text_input"
+        }
+      },
+		      {
+        "id" : "EDE16",
+        "label" : "EDE16",
+        "text" : "Negli ultimi 28 giorni, quante volte si è provocato/a il vomito come mezzo di conrollo della forma del suo corpo o del peso?",
+        "type" : {
+          "format" : "text_input"
+        }
+      },{
+        "id" : "EDE17",
+        "label" : "EDE17",
+        "text" : "Empty",
+        "type" : {
+          "format" : "text_input"
+        }
+      },
+		      {
+        "id" : "EDE18",
+        "label" : "EDE18",
+        "text" : "Negli ultimi 28 giorni, quante volte ha fatto esercizio in modo eccessivo e compulsivo come mezzo di controllo del peso, della forma del suo corpo o della quantità di grasso o per bruciare calorie? ",
+        "type" : {
+          "format" : "text_input"
+        }
+      },
+			  {
+        "id" : "EDE_istruzioni2",
+        "label" : "instruction",
+        "text" : "<h3><br>Nel rispondere alle prossime domande noti che il termine abbuffata significa il mangiare quello che altri considererebbero una quantità di cibo insolitamente elevata, accompagnata dal senso di aver perso dil controllo sull'alimentazione. </h3>",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+		      {
+        "id" : "EDE19",
+        "label" : "EDE19",
+        "text" : "Negli ultimi 28 giorno, in quanti giorni ha mangiato di nascosto (cioè furtivamente)...Non conti gli episodi di abbuffata.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1-5 giorni",
+            "6-12 giorni",
+			"13-15 giorni",
+			"16-22 giorni",
+			"23-27 giorni",
+			"Ogni giorno"  
+          ]
+        }
+      },
+		  {
+        "id" : "EDE20",
+        "label" : "EDE20",
+        "text" : "In che proporzione di volte in cui ha mangiato si è sentito in colpa (sentire di avere sbagliato) per gli effetti sulla forma del suo corpo o del suo peso? Non conti gli episodi di abbuffata.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Nessuna volta",
+            "Poche volte",
+            "Meno della metà delle volte",
+			"Metà delle volte",
+			"Più della metà delle volte",
+			"La maggior parte delle volte",
+			"Ogni volta"  
+          ]
+        }
+      },
+			  {
+        "id" : "EDE21",
+        "label" : "EDE21",
+        "text" : "Negli ultimi 28 giorni, quanto si è preoccupato/a del fatto che altre persone la potessero vedere mentre mangiava? Non conti gli episodi di abbuffata.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "0 Per Niente",
+            "1",
+            "2 Leggermente",
+			"3",
+			"4 Moderatamente",
+			"5",
+			"6 Notevolmente"  
+          ]
+        }
+      },
+		{
+        "id" : "EDE22",
+        "label" : "EDE22",
+        "text" : "Negli ultimi 28 giorni, quanto il peso ha influenzato il modo in cui giudicava se stesso/a come persona?",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "0 Per Niente",
+            "1",
+            "2 Leggermente",
+			"3",
+			"4 Moderatamente",
+			"5",
+			"6 Notevolmente"  
+          ]
+        }
+      },
+			  {
+        "id" : "EDE23",
+        "label" : "EDE23",
+        "text" : "Negli ultimi 28 giorni, quanto la forma del suo corpo ha influenzato il modo in cui giudicava se stesso/a come persona?",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "0 Per Niente",
+            "1",
+            "2 Leggermente",
+			"3",
+			"4 Moderatamente",
+			"5",
+			"6 Notevolmente"  
+          ]
+        }
+      },
+				  {
+        "id" : "EDE24",
+        "label" : "EDE24",
+        "text" : "Quanto si sentirebbe turbato/a se le chiedessero di pesarsi una volta alla settimana (non più spesso o meno spesso) per le prossime 4 settimane?",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "0 Per Niente",
+            "1",
+            "2 Leggermente",
+			"3",
+			"4 Moderatamente",
+			"5",
+			"6 Notevolmente"  
+          ]
+        }
+      },
+				  {
+        "id" : "EDE25",
+        "label" : "EDE25",
+        "text" : "Negli ultimi 28 giorni, quanto è stato/a insoddisfatto/a del suo peso?",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "0 Per Niente",
+            "1",
+            "2 Leggermente",
+			"3",
+			"4 Moderatamente",
+			"5",
+			"6 Notevolmente"  
+          ]
+        }
+      },
+				  {
+        "id" : "EDE26",
+        "label" : "EDE26",
+        "text" : "Negli ultimi 28 giorni, quanto è stato/a insoddisfatto/a delle forma del suo corpo?",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "0 Per Niente",
+            "1",
+            "2 Leggermente",
+			"3",
+			"4 Moderatamente",
+			"5",
+			"6 Notevolmente"  
+          ]
+        }
+      },
+			  {
+        "id" : "EDE27",
+        "label" : "EDE27",
+        "text" : "Negli ultimi 28 giorni, quanto si è sentito/a a disagio nel vedere il suo corpo (per esempio, vedere la forma del suo corpo alla specchio, nei riflessi delle vetrine, mentre si vestiva o faceva un bagno o una doccia)?",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "0 Per Niente",
+            "1",
+            "2 Leggermente",
+			"3",
+			"4 Moderatamente",
+			"5",
+			"6 Notevolmente"  
+          ]
+        }
+      },
+			  {
+        "id" : "EDE28",
+        "label" : "EDE28",
+        "text" : "Negli ultimi 28 giorni, quanto si è sentitoo/a a disagio per il fatto che altri vedessero la forma del suo corpo o la sua figura corporea (per esempio negli spogliatoi comuni, quando nuotava o indossava abiti aderenti?",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "0 Per Niente",
+            "1",
+            "2 Leggermente",
+			"3",
+			"4 Moderatamente",
+			"5",
+			"6 Notevolmente"  
+          ]
+        }
+      }
+	]
+  },
+	    "DASS" : {
+    "id" : "DASS",
+    "type" : "questionnaire",
+    "level" : "participant",
+    "repeat" : false,
+    "level" : "session",
+    "questions" : [
+      {
+        "id" : "DASS_istruzioni",
+        "label" : "instruction",
+        "text" : "<h3><br>Legga ogni frase attentamente e poi indichi con quale frequenza la situazione descritta si è verificata negli ultimi 7 giorni. </h3>",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "DASS1",
+        "label" : "DASS1",
+        "text" : "Ho provato molta tensione e ho avuto difficoltà a recuperare uno stato di calma",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Non mi è mai accaduto",
+            "Mi è capitato qualche volta",
+            "Mi è capitato con una certa frequenza",
+			"Mi è capitato quasi sempre"
+          ]
+        }
+	  },
+      {
+        "id" : "DASS2",
+        "label" : "DASS2",
+        "text" : "Mi sono accorto/a di avere la bocca secca",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Non mi è mai accaduto",
+            "Mi è capitato qualche volta",
+            "Mi è capitato con una certa frequenza",
+			"Mi è capitato quasi sempre"
+          ]
+        }
+	  },
+      {
+        "id" : "DASS3",
+        "label" : "DASS3",
+        "text" : "Non riuscivo proprio a provare delle emozioni positive",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Non mi è mai accaduto",
+            "Mi è capitato qualche volta",
+            "Mi è capitato con una certa frequenza",
+			"Mi è capitato quasi sempre"
+          ]
+        }
+	  },
+      {
+        "id" : "DASS4",
+        "label" : "DASS4",
+        "text" : "Mi sono sentito/a molto in affanno con difficoltà a respirare (per es. respiro molto accellerato, sensazione di forte affanno in assenza di sforzo fisico)",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Non mi è mai accaduto",
+            "Mi è capitato qualche volta",
+            "Mi è capitato con una certa frequenza",
+			"Mi è capitato quasi sempre"
+          ]
+        }
+	  },
+      {
+        "id" : "DASS5",
+        "label" : "DASS5",
+        "text" : "Ho avuto un'estrema difficoltà nel cominciare quello che dovevo fare",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Non mi è mai accaduto",
+            "Mi è capitato qualche volta",
+            "Mi è capitato con una certa frequenza",
+			"Mi è capitato quasi sempre"
+          ]
+        }
+	  },
+      {
+        "id" : "DASS6",
+        "label" : "DASS6",
+        "text" : "Ho avuto la tendenza a reagire in maniera eccessiva alle situazioni",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Non mi è mai accaduto",
+            "Mi è capitato qualche volta",
+            "Mi è capitato con una certa frequenza",
+			"Mi è capitato quasi sempre"
+          ]
+        }
+	  },
+      {
+        "id" : "DASS7",
+        "label" : "DASS7",
+        "text" : "Ho avuto tremori (per es. alle mani)",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Non mi è mai accaduto",
+            "Mi è capitato qualche volta",
+            "Mi è capitato con una certa frequenza",
+			"Mi è capitato quasi sempre"
+          ]
+        }
+	  },
+      {
+        "id" : "DASS8",
+        "label" : "DASS8",
+        "text" : "Ho sentito che stavo impiegando molta energia nervosa",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Non mi è mai accaduto",
+            "Mi è capitato qualche volta",
+            "Mi è capitato con una certa frequenza",
+			"Mi è capitato quasi sempre"
+          ]
+        }
+	  },
+      {
+        "id" : "DASS9",
+        "label" : "DASS9",
+        "text" : "Ho temuto di trovarmi in situazioni in cui sarei potuto/a andare nel panico e rendermi ridicolo/a",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Non mi è mai accaduto",
+            "Mi è capitato qualche volta",
+            "Mi è capitato con una certa frequenza",
+			"Mi è capitato quasi sempre"
+          ]
+        }
+	  },
+      {
+        "id" : "DASS10",
+        "label" : "DASS10",
+        "text" : "Non vedevo nulla di buono nel mio futuro",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Non mi è mai accaduto",
+            "Mi è capitato qualche volta",
+            "Mi è capitato con una certa frequenza",
+			"Mi è capitato quasi sempre"
+          ]
+        }
+	  },
+      {
+        "id" : "DASS11",
+        "label" : "DASS11",
+        "text" : "Mi sono sentito/a stressato/a",
+		"type" : {       
+          "format" : "multiple",
+          "options" : [
+            "Non mi è mai accaduto",
+            "Mi è capitato qualche volta",
+            "Mi è capitato con una certa frequenza",
+			"Mi è capitato quasi sempre"
+          ]
+        }
+	  },
+      {
+        "id" : "DASS12",
+        "label" : "DASS12",
+        "text" : "Ho avuto difficoltà a rilassarmi",
+		"type" : {       
+          "format" : "multiple",
+          "options" : [
+            "Non mi è mai accaduto",
+            "Mi è capitato qualche volta",
+            "Mi è capitato con una certa frequenza",
+			"Mi è capitato quasi sempre"
+          ]
+        }
+	  },
+      {
+        "id" : "DASS13",
+        "label" : "DASS13",
+        "text" : "Mi sono sentito/a scoraggiato/a e depresso/a",
+		"type" : {       
+          "format" : "multiple",
+          "options" : [
+            "Non mi è mai accaduto",
+            "Mi è capitato qualche volta",
+            "Mi è capitato con una certa frequenza",
+			"Mi è capitato quasi sempre"
+          ]
+        }
+	  },
+      {
+        "id" : "DASS14",
+        "label" : "DASS14",
+        "text" : "Non riuscivo a tollerare per nulla eventi o situazioni che mi impedivano di portare avanti ciò che stavo facendo",
+		"type" : {       
+          "format" : "multiple",
+          "options" : [
+            "Non mi è mai accaduto",
+            "Mi è capitato qualche volta",
+            "Mi è capitato con una certa frequenza",
+			"Mi è capitato quasi sempre"
+          ]
+        }
+	  },
+      {
+        "id" : "DASS15",
+        "label" : "DASS15",
+        "text" : "Ho sentito di essere vicino/a ad avere un attacco di panico",
+		"type" : {       
+          "format" : "multiple",
+          "options" : [
+            "Non mi è mai accaduto",
+            "Mi è capitato qualche volta",
+            "Mi è capitato con una certa frequenza",
+			"Mi è capitato quasi sempre"
+          ]
+        }
+	  },
+      {
+        "id" : "DASS16",
+        "label" : "DASS16",
+        "text" : "Non c'era nulla che mi dava entusiasmo",
+		"type" : {       
+          "format" : "multiple",
+          "options" : [
+            "Non mi è mai accaduto",
+            "Mi è capitato qualche volta",
+            "Mi è capitato con una certa frequenza",
+			"Mi è capitato quasi sempre"
+          ]
+        }
+	  },
+      {
+        "id" : "DASS17",
+        "label" : "DASS17",
+        "text" : "Sentivo di valere poco come persona",
+		"type" : {       
+          "format" : "multiple",
+          "options" : [
+            "Non mi è mai accaduto",
+            "Mi è capitato qualche volta",
+            "Mi è capitato con una certa frequenza",
+			"Mi è capitato quasi sempre"
+          ]
+        }
+	  },
+      {
+        "id" : "DASS18",
+        "label" : "DASS18",
+        "text" : "Mi sono sentito/a piuttosto irritabile",
+		"type" : {       
+          "format" : "multiple",
+          "options" : [
+            "Non mi è mai accaduto",
+            "Mi è capitato qualche volta",
+            "Mi è capitato con una certa frequenza",
+			"Mi è capitato quasi sempre"
+          ]
+        }
+	  },
+      {
+        "id" : "DASS19",
+        "label" : "DASS19",
+        "text" : "Ho percepito distintamente il battito del mio cuore senza avere fatto uno sforzo fisico (per es. battito cardiaco accellerato o perdita di un battito)",
+		"type" : {       
+          "format" : "multiple",
+          "options" : [
+            "Non mi è mai accaduto",
+            "Mi è capitato qualche volta",
+            "Mi è capitato con una certa frequenza",
+			"Mi è capitato quasi sempre"
+          ]
+        }
+	  },
+      {
+        "id" : "DASS20",
+        "label" : "DASS20",
+        "text" : "Mi sono sentito/a spaventato/a senza ragione",
+		"type" : {       
+          "format" : "multiple",
+          "options" : [
+            "Non mi è mai accaduto",
+            "Mi è capitato qualche volta",
+            "Mi è capitato con una certa frequenza",
+			"Mi è capitato quasi sempre"
+          ]
+        }
+	  },
+      {
+        "id" : "DASS21",
+        "label" : "DASS21",
+        "text" : "Sentivo la vita priva di significato",
+		"type" : {       
+          "format" : "multiple",
+          "options" : [
+            "Non mi è mai accaduto",
+            "Mi è capitato qualche volta",
+            "Mi è capitato con una certa frequenza",
+			"Mi è capitato quasi sempre"
+          ]
+        }
+	  }
+	]
+  },
+	    "YALE" : {
+    "id" : "YALE",
+    "type" : "questionnaire",
+    "level" : "participant",
+    "repeat" : false,
+    "level" : "session",
+    "questions" : [
+      {
+        "id" : "YALE_istruzioni",
+        "label" : "instruction",
+        "text" : "<h3><br> Questo questionario valuta le sue abitudini alimentari nel corso dell'ultimo anno. Le persone, a volte, hanno difficoltà a controllare l'assunzione di determinati alimenti (dolci quali gelato, cioccolato, biscotti, torte, caramelle, amidi come il pane, la pasta e il riso, snack salati quali patatine, salatini e cacker, cibi grassi quali carne grassa, salumi, hamburger, pizza e patatine fritte, bevande zuccherate e gassate). Alle domande che fanno riferimento a CERTI CIBI, si prega di rispondere pensando a qualsiasi cibo simile a quelli elencati tra parentesi o a qualsiasi altro cibo con cui ha avuto un problema lo scorso anno </h3>",
+        "type" : {
+          "format" : "instruction"
+        }
+      },
+      {
+        "id" : "YALE1",
+        "label" : "YALE1",
+        "text" : "Quando inizio a mangiare certi cibi, finisco per mangiarne molto più del previsto.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1 volta al mese",
+            "2-4 volte al mese",
+			"2-3 volte alla settimana",
+			"Più di 4 volte alla settimana"
+          ]
+        }
+	  },
+	  {
+        "id" : "YALE2",
+        "label" : "YALE2",
+        "text" : "Continuo a consumare certi cibi anche se non ho più fame.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1 volta al mese",
+            "2-4 volte al mese",
+			"2-3 volte alla settimana",
+			"Più di 4 volte alla settimana"
+          ]
+        }
+	  },
+	  {
+        "id" : "YALE3",
+        "label" : "YALE3",
+        "text" : "Mangio fino al punto in cui mi sento male fisicamente.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1 volta al mese",
+            "2-4 volte al mese",
+			"2-3 volte alla settimana",
+			"Più di 4 volte alla settimana"
+          ]
+        }
+	  },
+	  {
+        "id" : "YALE4",
+        "label" : "YALE4",
+        "text" : "Mi preoccupa non mangiare certi cibi o ridurne il consumo.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1 volta al mese",
+            "2-4 volte al mese",
+			"2-3 volte alla settimana",
+			"Più di 4 volte alla settimana"
+          ]
+        }
+	  },
+	  {
+        "id" : "YALE5",
+        "label" : "YALE5",
+        "text" : "Passo molto tempo rallentato/a o affaticato/a per aver mangiato troppo.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1 volta al mese",
+            "2-4 volte al mese",
+			"2-3 volte alla settimana",
+			"Più di 4 volte alla settimana"
+          ]
+        }
+	  },
+	  {
+        "id" : "YALE6",
+        "label" : "YALE6",
+        "text" : "Spesso durante la giornata mi ritrovo a mangiare certi cibi.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1 volta al mese",
+            "2-4 volte al mese",
+			"2-3 volte alla settimana",
+			"Più di 4 volte alla settimana"
+          ]
+        }
+	  },
+	  {
+        "id" : "YALE7",
+        "label" : "YALE7",
+        "text" : "Quando non ho a disposizione certi cibi faccio di tutto per trovarli. Per esempio, esco per comprarli anche se ho altri alimenti a disposizione in casa.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1 volta al mese",
+            "2-4 volte al mese",
+			"2-3 volte alla settimana",
+			"Più di 4 volte alla settimana"
+          ]
+        }
+	  },
+	  {
+        "id" : "YALE8",
+        "label" : "YALE8",
+        "text" : "Ci sono state volte in cui ho mangiato certi cibi così spesso o così tanto che iniziavo a mangiare invece di lavorare, passare tempo con la famiglia o con gli amici, fare altre cose piacevoli.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1 volta al mese",
+            "2-4 volte al mese",
+			"2-3 volte alla settimana",
+			"Più di 4 volte alla settimana"
+          ]
+        }
+	  },
+	  {
+        "id" : "YALE9",
+        "label" : "YALE9",
+        "text" : "Ci sono state volte in cui ho mangiato certi cibi così spesso o così tanto che ho dovuto affrontare a lungo sensazioni negative per l'eccesso di cibo, invece di lavorare, passare tempo con la famiglia o con gli amici, fare altre cose piacevoli.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1 volta al mese",
+            "2-4 volte al mese",
+			"2-3 volte alla settimana",
+			"Più di 4 volte alla settimana"
+          ]
+        }
+	  },
+	  {
+        "id" : "YALE10",
+        "label" : "YALE10",
+        "text" : "Ci sono stete volte in cui ho evitato situazioni professionali o sociali dove c'era la disponibilità di certi cibi per paura di mangiare troppo.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1 volta al mese",
+            "2-4 volte al mese",
+			"2-3 volte alla settimana",
+			"Più di 4 volte alla settimana"
+          ]
+        }
+	  },
+	  {
+        "id" : "YALE11",
+        "label" : "YALE11",
+        "text" : "Ci sono state volte in cui ho evitato situazioni professionali o sociali perchè in quella circostanza non sarei stato/a capace di gestire il consumo di certi cibi.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1 volta al mese",
+            "2-4 volte al mese",
+			"2-3 volte alla settimana",
+			"Più di 4 volte alla settimana"
+          ]
+        }
+	  },
+	  {
+        "id" : "YALE12",
+        "label" : "YALE12",
+        "text" : "Ho avuto sintomi di astinenza come agitazione, ansia, o altri sintomi fisici quando ho dovuto o voluto ridurre certi cibi (non considerare i sintom causati dalla riduzione di bevande contenenti caffeina come cola, caffè, tè, energy drink, etc.).",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1 volta al mese",
+            "2-4 volte al mese",
+			"2-3 volte alla settimana",
+			"Più di 4 volte alla settimana"
+          ]
+        }
+	  },
+	  {
+        "id" : "YALE13",
+        "label" : "YALE13",
+        "text" : "Ho consumato certi cibi per prevenire sensazioni di ansia o agitazione o altri sintomi fisici fin dall'inizio (non considerare i sintomi causati dalla riduzione di bevande contenenti caffeina come cola, caffè, tè, energy drink, etc.).",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1 volta al mese",
+            "2-4 volte al mese",
+			"2-3 volte alla settimana",
+			"Più di 4 volte alla settimana"
+          ]
+        }
+	  },
+	  {
+        "id" : "YALE14",
+        "label" : "YALE14",
+        "text" : "Mi sono accorto/a di provare un forte desiderio o avere necessità di consumare certi cibi quando ne riduco il consumo o smetto di mangiarli.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1 volta al mese",
+            "2-4 volte al mese",
+			"2-3 volte alla settimana",
+			"Più di 4 volte alla settimana"
+          ]
+        }
+	  },
+	  {
+        "id" : "YALE15",
+        "label" : "YALE15",
+        "text" : "Il mio comportamento rispetto al cibo e all'alimentazione mi dà un significativo disagio.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1 volta al mese",
+            "2-4 volte al mese",
+			"2-3 volte alla settimana",
+			"Più di 4 volte alla settimana"
+          ]
+        }
+	  },
+	  {
+        "id" : "YALE16",
+        "label" : "YALE16",
+        "text" : "Provo significative difficoltà nello svolgere in modo efficacie le mie attività quotidiane (lavoro, scuola, famiglia, amici, hobby, problemi di salute) a causa del cibo e dell'alimentazione.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "1 volta al mese",
+            "2-4 volte al mese",
+			"2-3 volte alla settimana",
+			"Più di 4 volte alla settimana"
+          ]
+        }
+	  },
+	  {
+        "id" : "YALE17",
+        "label" : "YALE17",
+        "text" : "Il mio modo di mangiare mi ha causato significativi problemi psicologici come abbassamento dell'umore, senso di ansia, senso di colpa, eccessiva autocritica.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "No",
+            "Sì"
+          ]
+        }
+	  },
+	  {
+        "id" : "YALE18",
+        "label" : "YALE18",
+        "text" : "Il mio modo di mangiare mi ha provocato o peggiorato significativi problemi fisici.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "No",
+            "Sì"
+          ]
+        }
+	  },
+	  {
+        "id" : "YALE19",
+        "label" : "YALE19",
+        "text" : "Ho continuato a mangiare gli stessi cibi o la stessa quantità anche se mi hanno provocato problemi psicologici e/o fisici.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "No",
+            "Sì"
+          ]
+        }
+	  },
+	  {
+        "id" : "YALE20",
+        "label" : "YALE20",
+        "text" : "In questo periodo mi sono accorto/a che ho bisogno di mangiare sempre di più per ottenere la sensazione che voglio, come la riduzione di emozioni negative o l'aumento delle sensazioni piacevoli",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "No",
+            "Sì"
+          ]
+        }
+	  },
+	  {
+        "id" : "YALE21",
+        "label" : "YALE21",
+        "text" : "Mi sono accorto/a che mangiare la stessa quantità di cibi non riduce più le mie emozioni negative nè aumenta le sensazioni piacevoli come succedeva prima.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "No",
+            "Sì"
+          ]
+        }
+	  },
+	  {
+        "id" : "YALE22",
+        "label" : "YALE22",
+        "text" : "Voglio ridurre o smettere di mangiare certi cibi.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "No",
+            "Sì"
+          ]
+        }
+	  },
+	  {
+        "id" : "YALE23",
+        "label" : "YALE23",
+        "text" : "Ho cercato di ridurre o smettere di mangiare certi cibi.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "No",
+            "Sì"
+          ]
+        }
+	  },
+	  {
+        "id" : "YALE24",
+        "label" : "YALE24",
+        "text" : "Sono riuscito/a a ridurre o a non mangiare certi cibi.",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "No",
+            "Sì"
+          ]
+        }
+	  },
+	  {
+        "id" : "YALE25",
+        "label" : "YALE25",
+        "text" : "Quante volte nel corso dell'ultimo anno ha cercato di ridurre o smettere di mangiare del tutto certi alimenti?",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Mai",
+            "Una volta",
+            "Due volte",
+			"Tre volte",
+			"Quattro volte",
+			"Cinque o più volte"
+          ]
+        }
+	  }
+	]
+},
+  "EQ" : {
+    "id" : "EQ",
+    "type" : "questionnaire",
+    "level" : "participant",
+    "default_type" : {
+      "format" : "text_input"
+    },
+    "questions" : [
+      {
+        "id" : "EQ1",
+        "label" : "height",
+        "text" : "Altezza (in centimetri)",
+        "type" : {
+          "format" : "text_input"
+        }
+      },
+      {
+        "id" : "EQ2",
+        "label" : "weight",
+        "text" : "Peso (kg):",
+        "type" : {
+          "format" : "text_input"
+        }
+      },
+      {
+        "id" : "EQ3",
+        "label" : "terapia",
+        "text" : "Stai attualmente assumendo una terapia farmacologica? Se sì, che farmaci stai assumendo?"
+      },
+      {
+        "id" : "EQ4",
+        "label" : "disturbo",
+        "text" : "Hai mai sofferto di un disturbo psicologico o psichiatrico? Se sì, di che tipo di disturbo hai sofferto o stai soffrendo?"
+      },
+      {
+        "id" : "EQ4",
+        "label" : "dieta",
+        "text" : "Attualmente, stai seguendo una dieta?",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Sì",
+            "No"
+          ]
+        },
+        "id" : "EQ5",
+        "label" : "ciclo",
+        "text" : "Ciclo mestruale",
+        "type" : {
+          "format" : "multiple",
+          "options" : [
+            "Presente",
+            "Assente",
+            "Pillola"
+          ]
+        }
+      }
+    ]
+  },
+  "FI" : {
+    "id" : "FI",
+    "type" : "questionnaire",
+    "repeat" : true,
+    "questions" : [
+      {
+        "id" : "FI1",
+        "text" : "<h1>Grazie</h1><p>Grazie per aver completato l'esperimento! Troverai di di seguito alcune informazioni su questa ricerca. </p><p>In questo studio, mediante lo smartphone, hai alternativamente attratto o respinto alcune immagini di cibo, corpi e oggetti. Mentre eseguivi i movimenti, l'applicazione misurava la velocità con cui rispondevi ad ogni immagine. Questi tempi di reazione ci hanno consentito di valutare a quali immagini trovavi più semplice approacciarti e quali trovavi più semplice respingere. </p><p> Per esempio, una reazione più rapida alle immagini di cibo o di corpi rispetto alle altre (oggetti) suggerirà una maggiore tendenza di approccio verso queste categorie di stimoli. </p><p>Per qualsiasi domanda o commento puoi contattare gli sperimentatori alla seguente email: <a href=\"mailto:aatmobile.neuroscienze@unipd.it?subject=richiesta informazioni studio AAT-mobile \"PARTICIPANT_ID\"\">aatmobile.neuroscienze@unipd.it</a> </p><p>Grazie ancora per la tua partecipazione!</p>",
+        "type" : {
+          "format" : "instruction"
+        }
+      }
+    ]
+  },
+  "practice_aat_pull_food" : {
+    "id" : "practice_aat_pull_food",
+    "parent" : "food_aat",
+    "type" : "aat",
+    "blocks" : [
+      "practice_pull_food_1",
+      "practice_push_food_2"
+    ]
+  },
+  "practice_aat_push_food" : {
+    "id" : "practice_aat_push_food",
+    "parent" : "food_aat",
+    "type" : "aat",
+    "blocks" : [
+      "practice_push_food_1",
+      "practice_pull_food_2"
+    ]
+  },
+  "start_pulling_food_aat" : {
+    "id" : "start_pulling_food_aat",
+    "type" : "aat",
+    "parent" : "food_aat",
+    "blocks" : [
+      "pull_food_1",
+      "pull_food_2",
+      "push_food_1",
+      "push_food_2"
+    ]
+  },
+  "start_pushing_food_aat" : {
+    "id" : "start_pushing_food_aat",
+    "type" : "aat",
+    "parent" : "food_aat",
+    "blocks" : [
+      "push_food_1",
+      "push_food_2",
+      "pull_food_1",
+      "pull_food_2"
+    ]
+  },
+  "start_pulling_bodies_aat" : {
+    "id" : "start_pulling_bodies_aat",
+    "type" : "aat",
+    "parent" : "food_aat",
+    "blocks" : [
+      "pull_bodies_1",
+      "pull_bodies_2",
+      "push_bodies_1",
+      "push_bodies_2"
+    ]
+  },
+  "start_pushing_bodies_aat" : {
+    "id" : "start_pushing_bodies_aat",
+    "type" : "aat",
+    "parent" : "food_aat",
+    "blocks" : [
+      "push_bodies_1",
+      "push_bodies_2",
+      "pull_bodies_1",
+      "pull_bodies_2"
+    ]
+  },
+  "food_aat" : {
+    "id" : "food_aat",
+    "type" : "aat",
+    "fixation_time" : 1500,
+    "end_of_experiment_instruction" : "Hai completato la sessione! Clicca sulla spunta in basso a destra per continuare l'esperimento. ",
+    "out_of_date_instruction" : "La sessione è scaduta. Cerca di completare la sessioni senza interruzioni."
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "pull_food": {
+    "name": "Esperimento 1",
+    "subtitle": "Clicca qui per cominciare",
+    "food_replication":true,
+    "tasks": [
+      "AAT_Reminder",
+      "HU",
+      "start_pulling_food_aat",
+      "HU",
+      "EX",
+      "SC"
+    ],
+    "start":-1,
+    "end":-1
+  },
+
+  "push_food": {
+    "name": "Esperimento 1",
+    "subtitle": "Clicca qui per cominciare",
+    "food_replication":true,
+    "tasks": [
+      "AAT_Reminder",
+	  "HU",
+      "start_pushing_food_aat",
+      "HU",
+      "EX",
+      "SC"
+    ],
+    "start":-1,
+    "end":-1
+  },
+
+  "pull_bodies": {
+    "name": "Esperimento 2",
+    "subtitle": "Clicca qui per cominciare",
+    "food_replication":true,
+    "tasks": [
+      "AAT_Reminder",
+      "start_pulling_bodies_aat",
+      "SC"
+    ],
+    "start":-1,
+    "end":-1
+  },
+
+  "push_bodies": {
+    "name": "Esperimento 2",
+    "subtitle": "Clicca qui per cominciare",
+    "food_replication":true,
+    "tasks": [
+      "AAT_Reminder",
+      "start_pushing_bodies_aat",
+      "SC"
+    ],
+    "start":-1,
+    "end":-1
+  },
+
+    "valutazione_cibo": {
+    "name": "Valutazione delle immagini 1",
+    "subtitle": "Clicca qui per cominciare",
+    "food_replication":false,
+    "tasks": [
+      "ICF_cibo"
+    ],
+    "start":-1,
+    "end":-1
+  },
+	
+	"valutazione_corpi": {
+    "name": "Valutazione delle immagini 2",
+    "subtitle": "Clicca qui per cominciare",
+    "food_replication":false,
+    "tasks": [
+      "ICF_corpi"
+    ],
+    "start":-1,
+    "end":-1
+  },
+	
+	"scale": {
+    "name": "Questionari",
+    "subtitle": "Clicca qui per cominciare",
+    "food_replication":false,
+    "tasks": [
+      "UPPS",
+	  "EDE",
+	  "DASS",
+	  "YALE"
+    ],
+    "start":-1,
+    "end":-1
+  },
+ 
+  "introduction_session_1": {"parent": "introduction_session", "tasks": ["SO", "IC", "DG", "EQ", "AAT_Instructions",
+      "practice_aat_pull_food",
+      "IF_1"]},
+
+  "introduction_session_2": {"parent": "introduction_session", "tasks": ["SO", "IC", "DG", "EQ", "AAT_Instructions",
+      "practice_aat_push_food",
+      "IF_1"]},
+
+  "introduction_session": {
+    "name": "Introduzione",
+    "food_replication":true,
+    "is_introduction":true,
+    "repeatable": 1,
+    "start": -1,
+    "end": -1,
+    "subtitle": "Clicca qui per cominciare",
+    "days_before_next_session" : 1
+  },
+
+  "final_session": {
+    "name": "Informazioni finali",
+    "food_replication":true,
+    "repeatable": 1,
+    "subtitle": "Clicca per concludere l'esperimento",
+    "start": -1,
+    "end": -1,
+    "complete_all": true,
+    "tasks": [
+      "FI"
+    ]
+  }
+}
